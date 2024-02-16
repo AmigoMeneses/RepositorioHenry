@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    background-color: blue;
+}
+
+.title {
+    font-size: 60px;
+}
+
+#principal {
+    font-size: 120px;
+}
+
+
+
+
+/* .fondo {
+    background-color: rgb(72, 255, 0);
+}
+
+.texto {
+    font-size: 80px;
+    color: black;
+
+} */
