@@ -1,14 +1,31 @@
+/* POR ETIQUETA */
+
 body {
     background-color: aqua;
 }
 
-h1 {
+h2 {
     background-color: blue;
+    font-size: 60;
+    color: blanchedalmond;
+}
+
+/* POR CLASE */
+
+.texto {
+    font-size: 20px;
+    color: darkgray;
 }
 
 .title {
-    font-size: 60px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
 }
+
+/* ID ESPECIFICO */
 
 #principal {
     font-size: 120px;
@@ -17,11 +34,63 @@ h1 {
 
 
 
-/* .fondo {
-    background-color: rgb(72, 255, 0);
+.logo {
+    width: 200px;
+    padding: 1em;
+    height: 200px;
+
 }
 
-.texto {
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 2px 1em;
+    padding-top: 2em;
+    border-radius: 15%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    align-items: ;
+
+
+}
+
+/* pseudo selector  */
+
+.cards:hover {
+    background-color: darkslateblue;
+}
+
+
+#titulos {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cardscontainer {
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    order: 0;
+}
+
+
+/*  .fondo {
+    background-color: rgb(72, 255, 0);
+} */
+
+/* .texto {
     font-size: 80px;
     color: black;
 
